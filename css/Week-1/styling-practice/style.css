@@ -1,0 +1,36 @@
+h1 {
+    background-color: black;
+    color: white;
+    height: 75px;
+    width: 1050px;
+}
+span {
+    padding-left: 20px;
+    font-size: 60px;
+    font-family: monospace;
+}
+h2 {
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 1050px;
+    font-size: 35px;
+    font-family: monospace;
+    font-style: italic;
+    text-align: center;
+}
+h3 {
+    background-color: lightblue;
+    color: blacks;
+    text-align: end;
+    height: 50px;
+    width: 1030px;
+}
+.contact-us {
+    font-family: monospace;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.test {
+    border: 5% solid green;
+}

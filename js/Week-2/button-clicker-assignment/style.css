@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* /////////////////Top Bar/////////////// */
+.topcontent {
+    background-color: lightgrey;
+    width: 1000px;
+    height: 75px;
+    margin: 0px 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.dojonary {
+    font-size: 40px;
+    margin: 15px 0px 0px 20px;
+}
+.searchbar {
+    margin: 20px 0px 0px 0px;
+    width: 500px;
+    height: 25px;
+    border: black solid;
+    text-align: left;
+    font-style: italic;
+    color: lightgrey;
+}
+.login {
+    background-color: blue;
+    box-shadow: 2px 2px black;
+    height: 30px;
+    width: 70px;
+    color: white;
+    font-weight: bolder;
+    margin: 20px 30px 0px 0px;
+    cursor: pointer;
+}
+/* //////////////////Main Content/////////////////// */
+.mainpage {
+    display: flex;
+}
+.box1 {
+    border: black solid;
+    width: 650px;
+    height: 250px;
+    margin: 20px 0px 0px 450px;
+    display: flex;
+}
+.box2 {
+    border: black solid;
+    width: 650px;
+    height: 250px;
+    margin: 20px 0px 0px 450px;
+    display: flex;
+}
+.box3 {
+    border: black solid;
+    width: 320px;
+    height: 200px;
+    margin: 20px 0px 0px 20px;
+}
+.box3 h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.adddef {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 40px 25px;
+    height: 40px;
+    width: 260px;
+    background-color: lightgreen;
+    box-shadow: 2px 2px black;
+}
+/* Sub box 1 */
+.ninja {
+    font-size: 50px;
+    margin: 10px 10px 0px 10px;
+}
+.noun {
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 45px;
+}
+.plural {
+    margin: 5px 0px 10px 25px;
+}
+.likebutton {
+    cursor: pointer;
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    background-color: lightgreen;
+    box-shadow: 2px 2px black;
+    margin: 50px 0px 0px 15px;
+}
+/* Sub box 2 */
+.maintext {
+    margin: 80px 50px 120px 100px;
+    font-size: 25px;
+}

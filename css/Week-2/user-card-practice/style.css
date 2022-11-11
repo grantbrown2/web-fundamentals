@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.mainpage {
+    margin: 50px;
+    border: 2px grey solid;
+    height: 500px;
+    width: 1000px;;
+}
+.topcontent {
+    background-color: lightblue;
+    height: 150px;
+}
+.avatar {
+    height: 150px;
+    position: absolute;
+    top: 125px;
+    left: 100px;
+}
+h1 {
+    margin: 75px 0px 0px 60px;
+}
+.img {
+    display: flex;
+    margin: 10px 0px 0px 60px;
+}
+.icons {
+    height: 20px;
+}
+.text {
+    margin-left: 10px;
+}
+.maintext {
+    margin: 10px 0px 0px 60px;
+}

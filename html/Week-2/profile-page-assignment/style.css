@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.maincontainer {
+    height: 750px;
+    width: 600px;
+}
+.navbarcontainer {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button.signout {
+    color: white;
+    margin-right: 10px;
+    background-color: #6699CC;
+    height: 30px;
+    width: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    color: white;
+    font-size: 20px;
+}
+.profile {
+    font-weight: bold;
+}
+.box1 {
+    height: 350px;
+    width: 400px;
+    margin: 20px 20px 20px 150px;
+    border: lightgrey solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.box1icons, .box1icons2 {
+    height: 20px;
+    margin-right: 5px;
+}
+.topbox {
+    background-color: #6699CC;
+    height: 100px;
+}
+.janetext {
+    font-size: 20px;
+    margin: 40px 0px 0px 25px;
+    font-weight: bold;
+}
+.jane {
+    border-radius: 50%;
+    border: black solid;
+    height: 75px;
+    position: absolute;
+    top: 130px;
+    left: 180px; 
+}
+.todd {
+    border-radius: 50%;
+    border: black solid;
+    height: 35px;
+    margin: 0px 0px 0px 40px;
+}
+.phil {
+    border-radius: 50%;
+    border: black solid;
+    height: 35px;
+    margin: 0px 0px 0px 40px;
+}
+.seattle {
+    margin: 15px 0px 0px 40px;
+    font-size: 16px;
+}
+.description {
+    font-size: 15px;
+    margin: 10px 0px 10px 25px;
+}
+.editprofile {
+    margin: 15px 0px 0px 40px;
+    font-size: 13px;
+    text-decoration: underline blue;
+}
+.box2 {
+    height: 350px;
+    width: 400px;
+    margin: 20px 20px 20px 150px;
+    border: lightgrey solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.edutopbox {
+    background-color: black;
+    height: 50px;
+}
+.edutext {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    padding: 12px 0px 0px 20px;
+}
+.edumaintext {
+    margin: 10px 25px;
+}
+.edudates {
+    margin: 0px 25px;
+    color: lightgrey;
+}
+.box3 {
+    border: lightgrey solid;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 70px;
+    right: 180px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.connectiontopbox {
+    background-color: black;
+    height: 65px;
+}
+.connectiontext {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.circle2 {
+    background-color: lightgrey;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding-top: 2px;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    font-weight: bold;
+}
+.response {
+    height: 30px;
+    margin: 2px;
+    position: absolute;
+    right: 15px;
+}
+.responseacpt {
+    height: 30px;
+    margin: 2px;
+    position: absolute;
+    right: 50px;
+}
+.toddicons {
+    margin: 10px;
+}
+.philicons {
+    margin: 10px;
+}
+.toddtext {
+    margin: 10px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+}
+.philtext {
+    margin: 10px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 125px;
+    left: 100px;
+}
+.box4 {
+    border: lightgrey solid;
+    height: 495px;
+    width: 300px;
+    position: absolute;
+    top: 300px;
+    right: 180px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.yourconnecttopbox {
+    background-color: black;
+    height: 65px;
+}
+.yourconnecttext {
+    display: flex;
+    justify-content: center;
+    margin-left: 65px;
+    padding-top: 15px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.circle500 {
+    background-color: lightgrey;
+    border-radius: 50%;
+    width: 55px;
+    height: 27px;
+    text-align: center;
+    padding-top: 5px;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    font-weight: bold;
+}
+.connectionnames {
+    font-size: 20px;
+}
+.adrien {
+    position: absolute;
+    top: 90px;
+    left: 75px;
+}
+.anne {
+    position: absolute;
+    top: 145px;
+    left: 75px;
+}
+.alayne {
+    position: absolute;
+    top: 200px;
+    left: 75px;
+}
+.arry {
+    position: absolute;
+    top: 255px;
+    left: 75px;
+}
+.adrienpic {
+    border-radius: 50%;
+    border: black solid;
+    height: 35px;
+    margin: 20px 0px 0px 20px;
+}
+.annepic {
+    border-radius: 50%;
+    border: black solid;
+    height: 35px;
+    margin: 10px 0px 0px 20px;
+}
+.alaynepic {
+    border-radius: 50%;
+    border: black solid;
+    height: 35px;
+    margin: 10px 0px 0px 20px;
+}
+.arrypic {
+    border-radius: 50%;
+    border: black solid;
+    height: 35px;
+    margin: 10px 0px 0px 20px;
+}
+.bottombar {
+    border: lightgrey solid;
+    height: 65px;
+    margin-top: 130px;
+}
+.viewmore {
+    text-decoration: underline blue;
+    text-align: left;
+    margin: 20px;
+}

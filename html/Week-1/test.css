@@ -1,0 +1,19 @@
+input {
+    padding: 5px;
+    border-color: rebeccapurple;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+}
+input[type="submit"] {
+    color: white;
+    background-color: rebeccapurple;
+}
+div, button {
+    margin: 10px 1px;
+    color: darkslateblue;
+    background-color: aliceblue;
+    padding: 10px;
+    display: block;
+}

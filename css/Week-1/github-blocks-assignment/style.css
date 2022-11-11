@@ -1,0 +1,36 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+img {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    margin: 20px;
+}
+.box2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgrey;
+    margin: 20px;
+}
+.box3 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 20px;
+}
+body {
+    background-color: cyan;
+}
+.sorce {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}

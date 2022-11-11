@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Images */
+.links {
+    display: flex;
+}
+.imguser {
+    height: 100px;
+    margin: 0px 20px;
+    border: black 2px solid;
+}
+.imggithub {
+    height: 30px;
+    margin: 0px 10px;
+}
+.imglinkedin {
+    height: 30px;
+    margin: 0px 10px;
+}
+.imgemail {
+    height: 30px;
+    margin: 0px 10px;
+}
+/* Top Content */
+.topcontent {
+    /* border: black 2px solid; */
+    width: 500px;
+    margin: 20px;
+}
+h1 {
+    margin: 20px 0px 10px 20px;
+}
+.links {
+    margin: 20px;
+}
+.logos {
+    margin: 10px 0px 0px 0px;
+}
+/* Technologies */
+.technologies {
+    margin: 0px 0px 0px 40px;
+}
+.techheader {
+    font-size: 20px;
+    font-weight: bold;
+}
+table, th, td {
+    border: 1px black solid;
+    border-collapse: collapse;
+    margin: 2px;
+    padding: 2px;
+}
+/* Social Snakes */
+h2 {
+    margin: 20px 0px 0px 40px;
+}
+.appbox {
+    border: black 2px solid;
+    height: 50px;
+    width: 50px;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 0px 0px 0px 40px;
+}
+.apptext {
+    margin: 5px 0px 0px 40px;
+}
+/* Contact Me */
+.form {
+    margin: 20px 0px 0px 40px;
+}
+h3 {
+    margin: 20px 0px 0px 40px;
+}
+.messager {
+    margin-top: 10px;
+}
+.sub {
+    margin: 20px;
+    background-color: white;
+    padding: 2px;
+    box-shadow: 2px 2px black;
+}
