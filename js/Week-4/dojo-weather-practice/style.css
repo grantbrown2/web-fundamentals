@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Header */
+.header {
+    height: 100px;
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+.locations {
+    width: 50%;
+    align-items: center;
+    list-style-type: none;
+}
+.locations a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.title {
+    color: white;
+}
+.header, .locations, .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+/* Sub Header */
+.subheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: black 2px solid;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+/* Main Container */
+.maincontainer {
+    margin: 0 auto;
+    width: 1000px;
+}
+.weather {
+    display: flex;
+    justify-content: space-between;
+}
+.block {
+    background-color: lightgrey;
+    height: 400px;
+    width: 230px;
+    margin: 20px auto;
+    text-align: center;
+}
+.block h2 {
+    margin: 15px 0px;
+}
+.block img {
+    height: 150px;
+    border-radius: 50%;
+}
+.block p {
+    margin-top: 25px;
+}
+.temps {
+    margin-top: 100px;
+}
+.block span {
+    margin: 0 35px 0 35px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.red1, .red2, .red3, .red4 {
+    color: red;
+}
+.blue1, .blue2, .blue3, .blue4 {
+    color: blue;
+}
+/* Cookie Popup */
+.cookies, .cookie-container {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    height: 100px;
+}
+.cookie-container {
+    border: 2px black solid;
+    width: 1000px;
+    background-color: rgba(128, 128, 128, 0.116);
+}
+.cookies button {
+    margin: 0 20px;
+    background-color: rgba(0, 0, 255, 0.404);
+    box-shadow: 2px 2px black;
+    width: 100px;
+    cursor: pointer;
+}
+.cookies img {
+    margin: 0 20px;
+}
